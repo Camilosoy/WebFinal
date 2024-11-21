@@ -1,0 +1,95 @@
+.backg2{
+    background-image: url("/proyecto/img/videohtml.jpg");
+    background-size: cover;
+    box-shadow: 0px 6px 4px #24596E;
+    width: 100vw;
+    height: 110vh;
+     padding: 263px 139px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.Tituloboton {
+    width: 55vw;
+    height: 585px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1px;
+  }
+  
+.Titulovideo {
+    width: 100%;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+.ElFlacoYLaChiquiTienenCanalDeYoutube {
+    width: 100%;
+    text-align: center;
+    color: #F0F0F0;
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    word-wrap: break-word;
+  }
+  
+.Reconecta {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+  }
+  
+.ReconectaConElAmor {
+    width: 100%;
+    text-align: center;
+    color: #F0F0F0;
+    font-size: 30px;
+    font-family: "EB Garamond", serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+.Line2 {
+    width: 310px;
+    border: 1px solid #F0F0F0;
+  }
+  
+.Botonvisitarcanal {
+    width: 80px;
+    height: 109px;
+    padding: 13px;
+    background: #C22425;
+    box-shadow: 0px 17px 0px rgba(197, 197, 197, 0.86);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+.Botonvisitarcanal:hover {
+    transform: scale(1.05);
+  }
+  
+.IrAlCanal {
+    color: white;
+    font-size: 58px;
+    font-family: "Noto Serif", serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-decoration: none;
+  }
+
+

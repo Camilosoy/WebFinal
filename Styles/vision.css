@@ -1,0 +1,126 @@
+.vision{
+    
+    background-image: url("/proyecto/img/fondoVision.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 130vh;
+    background-position: center;
+}
+
+.contenido-contacto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 115px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+}
+
+.highlight2 {
+    color: #C22425;
+}
+
+/* Contenedor de texto y galería */
+.contenedor-informacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1490px;
+    height: 100vh;
+}
+
+/* Texto descriptivo */
+.texto-vision {
+    flex: 1;
+    font-size: 28px;
+    line-height: 1.6;
+    color: black;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.boton-contacto {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center;    /* Centrar verticalmente */
+    margin-top: 20px;       /* Separación opcional del texto */
+}
+
+.boton-contacto a{
+    text-decoration: none;  /* Quita el subrayado */
+    color: inherit;  
+}
+/* Botón */
+.boton-contacto button {
+    background-color: #24596E;
+    color: white;
+    font-size: 28px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 13px 0px #C6C6C6;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.boton-contacto button:hover {
+    background-color: #618FA1;
+    box-shadow: 0px 13px 0px #a6a6a6;
+}
+
+/* Imagen de la galería */
+.galeria {
+    flex: 0 0 575px;
+}
+
+.imagen-galeria {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 19px 22px 0.3px rgba(0, 0, 0, 0.93);
+}
+
+
+@media (max-width: 1024px) {
+    .contenedor-informacion {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .texto-vision {
+        padding-right: 0;
+    }
+
+    .galeria {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 64px;
+    }
+
+    .texto-vision {
+        font-size: 24px;
+    }
+
+    .boton-contacto button {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+}

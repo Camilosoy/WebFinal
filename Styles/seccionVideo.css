@@ -1,0 +1,70 @@
+.Secciondevideo {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Estilo para el título "Visita nuestro canal" */
+.VisitaNuestroCanal {
+    font-size: 68px;
+    font-family: 'Arial', sans-serif;
+    color: black;
+}
+
+/* Estilo para la palabra destacada "canal" */
+.highlighted {
+    color: #C22425; /* Color rojo */
+}
+
+/* Estilo del contenedor del video */
+.Videoyoutube {
+    width: 912px;
+    height: 602px;
+    background: linear-gradient(0deg, #914444 0%, #914444 100%);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para la descripción debajo del video */
+.TeInvitamosABuscarMaterial {
+    font-size: 24px;
+    color: black;
+    font-family: 'Arial', sans-serif;
+    max-width: 80%;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Estilo del botón para visitar el canal */
+.Botonvisitarcanal {
+    display: inline-flex;
+    width: 300px;
+    height: 100px;
+    background-color: #C22425;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* Quitar el subrayado del enlace */
+    box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo del texto dentro del botón */
+.IrAlCanal {
+    font-size: 24px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+/* Efecto al pasar el ratón sobre el botón */
+.Botonvisitarcanal:hover {
+    background-color: #a51e1e;
+}

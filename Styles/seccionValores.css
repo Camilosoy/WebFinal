@@ -1,0 +1,84 @@
+.Seccionvalores {
+    width: 100%; /* Ajustar al contenedor padre */
+    max-width: 100vw;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 185px;
+  }
+  
+  .Textopincipal {
+    height: 357px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 52px;
+    padding-top: 100px;
+  }
+  
+  .PorqueReconectarConElAmor {
+    text-align: center;
+    font-size: 64px;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  .PorqueReconectarConElAmor span {
+    display: inline-block;
+  }
+  
+  .PorqueReconectarConElAmor span:nth-child(2) {
+    color: #24596E;
+  }
+  
+  .PorqueReconectarConElAmor span:nth-child(4) {
+    color: #C22425;
+  }
+  
+  .textdescript {
+    width: 85%;
+    text-align: justify;
+    color: black;
+    font-size: 28px;
+    font-family: "Arimo", sans-serif;
+  }
+  
+  .Contenedorazul {
+    width: 100%; /* Usar 100% para que ocupe todo el ancho disponible */
+    max-width: 1920px; /* Ajustar el máximo ancho */
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    
+  }
+  
+  .Contenedortext {
+    width: 463px;
+    height: 499px;
+    padding: 20px;
+    background: #24596E;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  .Contenedortext img {
+    width: auto;
+    height: 38%;
+    max-width: 20vw; /* Ajustar según imagen */
+  }
+  
+  .Contenedortext div {
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  

@@ -1,0 +1,65 @@
+.contenedor-article {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    padding: 20px;
+    width: 100%;
+    max-width: 100vw;
+    margin: auto;
+    height: auto; 
+}
+
+.texto-article {
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+.titulo23 {
+    font-size: 68px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 100px;
+    color: black;
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.titulo23 .highlight {
+    color: #24596E; 
+}
+
+.descripcion {
+    font-size: 25px;
+    line-height: 1.6; 
+    color: black;
+    text-align: left;
+}
+
+.imagen-container {
+    flex: 0 0 648px; /* Ancho fijo para el contenedor de la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 20px; 
+    object-fit: cover; 
+}
+
+@media (max-width: 1024px) {
+    .contenedor-article {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .texto-article {
+        text-align: center; 
+        padding: 0;
+    }
+
+    .imagen-container {
+        margin-top: 20px; 
+    }
+}

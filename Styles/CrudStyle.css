@@ -1,0 +1,107 @@
+/* Asegura que el body ocupe toda la altura de la pantalla */
+body {
+  display: flex;
+  flex-direction: column; /* Organiza los elementos en columna */
+  height: 100vh; /* 100% de la altura de la ventana */
+  margin: 0; /* Elimina los márgenes predeterminados */
+}
+
+/* Estilo para la barra de navegación */
+nav {
+ 
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que el nav esté encima de otros elementos */
+}
+
+/* Asegura que el contenido no quede oculto debajo del nav */
+.content-section {
+  background-color: #ffffff;
+  padding: 4px;
+  border-radius: 8px;
+  margin: 85px auto 2px auto; /* Deja espacio debajo del navbar */
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-grow: 1; /* Hace que ocupe el espacio restante de la pantalla */
+}
+
+/* Otros estilos para el contenido */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.buttonRegistrate {
+  background-color: #007bff; /* Color de fondo */
+  color: white; /* Color del texto */
+  font-size: 16px; /* Tamaño de la fuente */
+  padding: 10px 20px; /* Espaciado interior (alto y ancho) */
+  border: none; /* Elimina el borde predeterminado */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+/* Efecto de hover para el botón */
+.buttonRegistrate:hover {
+  background-color: #0056b3; /* Cambio de color al pasar el mouse */
+  transform: translateY(-2px); /* Desplazamiento hacia arriba */
+}
+
+/* Efecto de focus cuando el botón está enfocado (click o teclado) */
+.buttonRegistrate:focus {
+  outline: none; /* Elimina el contorno predeterminado */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Agrega una sombra azul */
+
+}
+/* Lista de items */
+.items-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.items-list li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+}
+
+.items-list button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.items-list button:hover {
+  background-color: #c82333;
+}

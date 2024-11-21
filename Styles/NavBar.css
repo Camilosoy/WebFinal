@@ -1,0 +1,146 @@
+body {
+    margin: 2px; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* .header {
+    background-image: url('/img/fyc.jpg');  
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat; 
+    height:100vh; 
+    
+    color: white;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);  
+    z-index: -1; 
+} */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 5%;
+    background-color: #24596E;
+    color: white;
+    border-bottom: 3px solid black;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0px 8px 0.5px #E6A51A;
+    gap: 15px;
+    
+}
+
+.navbar .logo img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%; 
+}
+
+.navbar .nav-links {
+    display: flex;
+    justify-content: center; /* Centra los elementos dentro de este contenedor */
+    flex-grow: 1;
+    gap: 20px; /* Usa px o rem para un control más preciso */
+    color: white; 
+    font-size: 30px; 
+    font-family: 'Bebas Neue'; 
+    font-weight: 500;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    background: #24596E;
+    padding: 20px 20px; /* Ajustado para mejor proporción */
+    text-shadow: 1px 4px 0px black;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #618FA1;
+    border-radius: 5px;
+}
+
+.navbar .right-side {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+/* Estilos para el search box */
+.search-box {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search-box input {
+    width: 250px; /* Ajusta el tamaño */
+    height: 44px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-radius: 30px;
+    color: gray;
+    font-size: 16px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.search-box button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: #C22425;
+    color: white;
+    font-size: 16px;
+}
+
+/* Estilo para el botón "Registrate" */
+.navbar .login-btn {
+    width: 7vw;
+    height: 5vh;
+    padding: 8px 15px;
+    background-color: #C22425;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    box-shadow: 0px 8px 0px rgba(197.62, 197.62, 197.62, 0.86);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.login-btn a {
+    text-decoration: none;  /* Quita el subrayado */
+    color: inherit;         /* Hereda el color del botón */
+  }
+
+.navbar .login-btn:hover {
+    background-color: #D66869;
+}
+
+

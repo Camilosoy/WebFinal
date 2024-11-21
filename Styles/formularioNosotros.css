@@ -1,0 +1,139 @@
+.Contenedorsecciondatos {
+    position: relative; /* Necesario para que el overlay funcione */
+    width: 100vw;  /* Ajusta al ancho completo de la ventana */
+    height: 120vh;  /* Altura ajustada a la ventana */
+    padding: 40px;
+    background-image: url("/proyecto/img/sala2.webp");
+    background-size: cover; /* Hace que la imagen de fondo cubra todo el área */
+    background-position: center; /* Centra la imagen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Para evitar que se desborde el contenido */
+}
+
+.Contenedorsecciondatos .overlay {
+    position: absolute; /* Superposición encima del fondo */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(189, 126, 86, 0.81) 0%, rgba(189, 126, 86, 0.81) 100%); /* Color semitransparente */
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.Secciondatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    z-index: 2;
+}
+
+.DejanosTusDatos {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.Formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.FormularioDeRegistro {
+    width: 100%;
+    max-width: 800px;
+    color: white;
+    font-size: 40px;
+    font-family: EB Garamond, serif;
+    font-weight: 700;
+    text-align: left;  /* Alinea el subtítulo a la izquierda */
+}
+
+.Contenedordatos {
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.Datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 30vh;
+}
+
+.Nameregist {
+    width: 100%;
+    max-width: 500px;
+    height: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d1cfcf;
+    font-size: 22px;
+    font-family: Arimo, sans-serif;
+    font-weight: 400;
+}
+
+.Nameregist input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    font-size: 28px;
+    color: #dad7d7;
+    font-family: Arimo, sans-serif;
+}
+
+.Nameregist input:focus {
+    outline: none;
+    border: 2px solid #F0F0F0;
+}
+
+.Botonenviar {
+    width: 300px;
+    height: 80px;
+    background: #F0F0F0;
+    box-shadow: 0px 19px 0px #1e6c8b;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.Botonenviar:hover {
+    background: #1e6c8b;  /* Cambia el color del fondo en hover */
+}
+
+.IrAlCanal {
+    color: black;
+    font-size: 38px;
+    font-family: Noto Serif, serif;
+    font-weight: 700;
+}

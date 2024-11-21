@@ -1,0 +1,228 @@
+.Headervideo {
+    background-image: url("/proyecto/img/bogota.jpg");
+    background-size: cover;
+    width: 99vw;
+    height: 100vh;
+    padding-left: 139px;
+    padding-right: 139px;
+    padding-top: 263px;
+    padding-bottom: 263px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Para asegurar que el overlay esté posicionado correctamente */
+}
+
+.Headervideo .overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(194, 96, 36, 0.69) 0%, rgba(194, 96, 36, 0.69) 100%);
+    z-index: 1;
+}
+
+.UnPocoMasAcercaDeNosotros {
+    align-self: stretch;
+    height: 38vh;
+    text-align: center;
+    color: #F0F0F0;
+    font-size: 75px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    z-index: 2;
+}
+
+.Logosinfondo {
+    width: 360px;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra la imagen */
+}
+
+.ElFlacoYLaChiquiMesaDeTrabajo1Copia21 {
+    width: 20vw;
+    height: 40vh;
+    object-fit: cover; /* Asegura que la imagen no se deforme */
+}
+
+.Textopincipal {
+    width: 100%;
+    height: 150vh;
+    padding: 80px 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 68px;
+}
+
+.QueEsLoQueHacemos {
+    align-self: stretch;
+    height: 89px;
+    text-align: center;
+    color: black;
+    font-size: 64px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.DesdeHaceMasDe20AOs {
+    align-self: stretch;
+    height: 613px;
+    color: black;
+    font-size: 38px;
+    font-family: Arimo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.texto2 {
+    color: black;
+    font-size: 50px;
+    font-family: EB Garamond;
+    font-weight: 700;
+}
+
+.texto1, .texto3 {
+    color: black;
+    font-size: 38px;
+    font-family: Arimo;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Flacocontenedor {
+    display: flex;
+    align-items: center;
+    gap: 30px;  /* Espacio entre la imagen y el texto */
+    padding-left: 10vw;
+    padding-bottom: 10vw;
+}
+
+.Ellipse6, .Ellipse62 {
+    width: 25vw;  /* Esto hace que las imágenes sean responsivas */
+    height: 25vw;
+    min-width: 150px;  /* Asegura que no sea demasiado pequeña */
+    min-height: 150px;
+    border-radius: 50%;  /* Crea el efecto circular */
+    overflow: hidden;  /* Recorta cualquier parte de la imagen que sobresalga del círculo */
+    border: 5px solid #000000;  /* Borde negro alrededor del círculo */
+    display: flex;  /* Flex para centrar la imagen */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Ellipse6 img, .Ellipse62 img {
+    width: 100%;  /* Asegura que la imagen ocupe todo el contenedor */
+    height: 100%;  /* Asegura que la imagen ocupe todo el contenedor */
+    object-fit: cover;  /* Asegura que la imagen se recorte y ajuste al círculo */
+}
+
+
+
+
+.Jairo {
+    width: 60%; /* Controlamos el ancho del texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Espacio entre las secciones de texto */
+}
+
+.JairoAliasElFlaco {
+    color: black;
+    font-size: 64px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-bottom: 20px; /* Separación entre el título y el texto */
+}
+
+.DescripcionFlaco {
+    color: black;
+    font-size: 25px; /* Ajusté el tamaño para mejorar la legibilidad */
+    font-family: Arimo;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 1.6; /* Mejorar la legibilidad con más espacio entre líneas */
+}
+
+#myCarousel {
+    border-radius: 15px;
+    width: 80%;  /* Ajusta el ancho al 80% de la pantalla */
+    height: 85vh;  /* Ajusta la altura */
+    margin: 0 auto;  /* Centra el carrusel */
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;  /* Hace que las imágenes llenen todo el contenedor */
+    object-fit: cover;  /* Ajusta la imagen para que cubra el área sin distorsionarse */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;  /* Centra las flechas verticalmente */
+    transform: translateY(-50%);  /* Ajuste fino para que esté perfectamente centrado */
+    font-size: 30px;
+}
+
+.carousel-control-prev {
+    left: 10px;  /* Mueve la flecha de la izquierda hacia el borde */
+}
+
+.carousel-control-next {
+    right: 10px;  /* Mueve la flecha de la derecha hacia el borde */
+}
+
+/* Centra los controles debajo del carrusel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;  /* Hace que las flechas tengan forma circular */
+}
+
+.carousel-indicators {
+    bottom: 10px; /* Coloca los indicadores en la parte inferior */
+}
+
+/* Para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .Flacocontenedor {
+        flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
+        align-items: center; /* Centrar los elementos */
+        gap: 20px;
+    }
+
+    .Ellipse6 {
+        width: 60vw; /* Hacer la imagen más grande en pantallas pequeñas */
+        height: 60vw; /* Mantener la proporción */
+    }
+
+    .Jairo {
+        width: 80%; /* Ajustar el texto para pantallas más pequeñas */
+        text-align: center; /* Centrar el texto */
+    }
+
+    .JairoAliasElFlaco {
+        font-size: 48px; /* Reducir tamaño de fuente en móviles */
+    }
+
+    .DescripcionFlaco {
+        font-size: 18px; /* Reducir tamaño de fuente en móviles */
+    }
+}

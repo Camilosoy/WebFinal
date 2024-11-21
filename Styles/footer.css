@@ -1,0 +1,133 @@
+.Footer {
+    width: 100vw;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 68px;
+    
+  }
+  
+.Contenedoriconos {
+    width: 100%;
+    background: #24596E;
+    padding: 16px 69px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .Frame2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+.ConoceNuestrasRedesSociales {
+    font-size: 64px;
+    color: white;
+    font-family: Bebas Neue, sans-serif;
+  }
+  
+  .Iconos {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-right: 60px;
+  }
+  
+
+.LogoInstagram,
+.LogoFacebook,
+.LogoYoutube {
+    width: 35%; /* Tamaño fijo más común para logos */
+    height: 50%; /* Asegura proporción cuadrada */
+    padding: 10px; /* Espacio interno opcional */
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+     /* Si deseas bordes redondeados */
+    background-color: #f0f0f000; /* Color de fondo opcional */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+    cursor: pointer; /* Cambia a un puntero para indicar que son clicables */
+    transition: transform 0.2s ease; /* Animación suave al pasar el mouse */
+}
+
+.LogoInstagram:hover,
+.LogoFacebook:hover,
+.LogoYoutube:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño al pasar el mouse */
+}
+  
+  .Vector {
+    background: white;
+  }
+  
+.Contenedortextosfooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 37px;
+    padding: 16px;
+  }
+  
+.Company,
+.Productos,
+.Linksutiles,
+.Contacto {
+    flex: 1;
+  }
+  
+  .Titulofooter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+.CompanyName {
+    font-size: 40px;
+    color: black;
+    font-family: EB Garamond, serif;
+  }
+  
+.Line1 {
+    width: 132px;
+    height: 2px;
+    background: black;
+  }
+  
+.TextExample,
+.Textprodcts,
+.Links,
+.Contactgropu {
+    font-size: 24px;
+    color: black;
+    font-family: Arimo, sans-serif;
+  }
+  
+.Textprodcts .Producto,
+.Links .Link,
+.Contactgropu .Email,
+.Contactgropu .Numero,
+.Contactgropu .Direccion {
+    margin-bottom: 16px;
+  }
+  
+  .Bot {
+    width: 100%;
+    background: #24596E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .ElflacoylachiquiCom {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arimo, sans-serif;
+  }

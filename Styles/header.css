@@ -1,0 +1,109 @@
+.backg{
+    background-image: url("/proyecto/img/fyc.jpg");
+    background-size: cover;
+    box-shadow: 0px 6px 4px #24596E;
+    width: 100vw;
+    height: 110vh;
+    gap: 100px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.main-container3 {
+    
+    padding: 130px 20vh;
+}
+
+/* Encabezado */
+.header-container3 {
+    
+    height: 204px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.title3 {
+    align-self: stretch;
+    text-align: center;
+    height: 148px;
+    color: white;
+    font-size: 85px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+
+.subtitle3 {
+    padding-top: 10px;
+    align-self: stretch;
+    height: 56px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: "EB Garamond", serif;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* Contenedor de contenido */
+.content-container3 {
+    padding-top: 10vh;
+    height: 331px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+}
+
+.description3 {
+    align-self: stretch;
+    height: 175px;
+    color: white;
+    font-size: 25px;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.button-container3 {
+    cursor: pointer;
+    width: 15vw;
+    height: 85px;
+    padding: 8px;
+    background: #24596E;
+    box-shadow: 0px 10px 0px rgba(197, 62, 62, 0.86);
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-text3 {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Arimo", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.button-text3 a {
+    text-decoration: none;  /* Quita el subrayado */
+    color: inherit;         /* Hereda el color del botón */
+}
+
+.button-container3:hover  {
+    background-color: #618FA1;
+}
